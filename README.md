@@ -1,3 +1,6 @@
+[![Published on webcomponents.org](https://img.shields.io/badge/webcomponents.org-published-blue.svg)](https://www.webcomponents.org/element/chargebee-card) [![npm version](https://badge.fury.io/js/chargebee-card.svg)](https://badge.fury.io/js/chargebee-card)
+
+
 # \<chargebee-card>
 
 This webcomponent follows the [open-wc](https://github.com/open-wc/open-wc) recommendation.
