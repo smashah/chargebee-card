@@ -1,0 +1,55 @@
+import { Story, Preview, Meta, Props, html } from '@open-wc/demoing-storybook';
+
+import '../chargebee-card.js';
+
+<Meta 
+  title="ChargebeeCard"
+  parameters={{
+    component: "chargebee-card",
+    options: { selectedPanel: "storybookjs/knobs/panel" }
+  }}
+/>
+
+# ChargebeeCard
+
+A component for...
+
+## Features:
+
+- a
+- b
+- ...
+
+## How to use
+
+### Installation
+
+```bash
+yarn add chargebee-card
+```
+
+```js
+import 'chargebee-card/chargebee-card.js';
+```
+
+<Preview withToolbar>
+  <Story name="Simple">
+    {html`
+      <chargebee-card></chargebee-card>
+    `}
+  </Story>
+</Preview>
+
+## API
+
+<Props of="chargebee-card" />
+
+## Variations
+
+###### Custom Title
+
+<Story name="Custom Title">
+  {html`
+    <chargebee-card .title=${'Hello World'}></chargebee-card>
+  `}
+</Story>
