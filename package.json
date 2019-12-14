@@ -1,6 +1,6 @@
 {
   "name": "chargebee-card",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "Webcomponent chargebee-card following open-wc recommendations",
   "author": "chargebee-card",
   "license": "MIT",
