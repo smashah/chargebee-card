@@ -1688,9 +1688,9 @@
     "@vaadin/vaadin-usage-statistics" "^2.1.0"
 
 "@vaadin/vaadin-form-layout@^2.1.6":
-  version "2.1.6"
-  resolved "https://registry.yarnpkg.com/@vaadin/vaadin-form-layout/-/vaadin-form-layout-2.1.6.tgz#ac1fbcd205a277dad150806acf01409168a848da"
-  integrity sha512-NINQT5c+z83jy7bQqAgghXfmHjTjlGSxZ64uboydgCxL7lCwkQ7CosDBxqXSEdsBVaXaucdAm6EOZJyr4a8zYQ==
+  version "2.1.7"
+  resolved "https://registry.yarnpkg.com/@vaadin/vaadin-form-layout/-/vaadin-form-layout-2.1.7.tgz#9bf2866952aba1684f175757c996914b3a4bf89e"
+  integrity sha512-sYkHoGFg277VVwW0VJJ5WRo+27wpABmRjdcvpD2mLpcj8OfZINoq+/wB2AqJzjNfh/g24JXmJO4GMsAPZcXnDw==
   dependencies:
     "@polymer/iron-resizable-behavior" "^3.0.0"
     "@polymer/polymer" "^3.0.0"
