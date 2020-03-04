@@ -37,7 +37,7 @@
     "eslint": "^6.1.0",
     "@open-wc/eslint-config": "^2.0.0",
     "@open-wc/prettier-config": "^0.1.10",
-    "husky": "^1.0.0",
+    "husky": "^4.2.3",
     "lint-staged": "^10.0.8",
     "@open-wc/testing-karma": "^3.0.0",
     "webpack-merge": "^4.1.5",
