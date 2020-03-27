@@ -2112,9 +2112,9 @@
     "@polymer/polymer" "^3.0.0"
 
 "@vaadin/vaadin-text-field@^2.4.14":
-  version "2.5.4"
-  resolved "https://registry.yarnpkg.com/@vaadin/vaadin-text-field/-/vaadin-text-field-2.5.4.tgz#02fda15eeb8e655854526c9f9f303cdfe1b09281"
-  integrity sha512-wK9Xc78qchYK45SYHwO4kmD7B9usbmXuysc2zSBBU12vomaTB7TyFVXziQYjHHMjyj5DpTVaOMCmiIPllUcHEQ==
+  version "2.5.5"
+  resolved "https://registry.yarnpkg.com/@vaadin/vaadin-text-field/-/vaadin-text-field-2.5.5.tgz#fbb8b8648d0506e80d0f7c0b13664fb46e50088c"
+  integrity sha512-y/g6d3l7oPJOwmrpEqEeF/+6LRlEXMS4bOrtvot8DWzAlybT6mFvcTjc5jt3v/JMi8pJNOkYy8Y8Uhlj08h3GA==
   dependencies:
     "@polymer/polymer" "^3.0.0"
     "@vaadin/vaadin-control-state-mixin" "^2.1.1"
