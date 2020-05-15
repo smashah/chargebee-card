@@ -3151,9 +3151,9 @@ es-abstract@^1.17.0-next.0, es-abstract@^1.17.0-next.1:
     string.prototype.trimright "^2.1.0"
 
 es-dev-server@^1.49.0, es-dev-server@^1.5.0:
-  version "1.49.0"
-  resolved "https://registry.yarnpkg.com/es-dev-server/-/es-dev-server-1.49.0.tgz#fceb6bc1279a634c671d3fd0a4957ea159683f5d"
-  integrity sha512-AXQeG1FpervWnRgaz1I3l51vCB8wEtZ2MUvAT7TTYemAyY4b9mxc55nlEJ3fERviH3B/tayoSgv+3eWeO7SICg==
+  version "1.50.1"
+  resolved "https://registry.yarnpkg.com/es-dev-server/-/es-dev-server-1.50.1.tgz#7b443fbb874cdbda44b01c423a20550c4dd691e0"
+  integrity sha512-zJjJK5j6WlaGd/uKyFRCcraWr1qmeaGKk4QezCIwlp94W4lhF5S64aCsx2BGtaNqAHQgRGV7bQ3ZTk+qz/W/aQ==
   dependencies:
     "@babel/core" "^7.9.0"
     "@babel/plugin-proposal-dynamic-import" "^7.8.3"
@@ -7284,20 +7284,10 @@ trough@^1.0.0:
   resolved "https://registry.yarnpkg.com/trough/-/trough-1.0.4.tgz#3b52b1f13924f460c3fbfd0df69b587dbcbc762e"
   integrity sha512-tdzBRDGWcI1OpPVmChbdSKhvSVurznZ8X36AYURAcl+0o2ldlCY2XPzyXNNxwJwwyIU+rIglTCG4kxtNKBQH7Q==
 
-tslib@^1.10.0:
-  version "1.11.1"
-  resolved "https://registry.yarnpkg.com/tslib/-/tslib-1.11.1.tgz#eb15d128827fbee2841549e171f45ed338ac7e35"
-  integrity sha512-aZW88SY8kQbU7gpV19lN24LtXh/yD4ZZg6qieAJDDg+YBsJcSmLGK9QpnUjAKVG/xefmvJGd1WUmfpT/g6AJGA==
-
-tslib@^1.11.1:
+tslib@^1.10.0, tslib@^1.11.1, tslib@^1.9.0:
   version "1.11.2"
   resolved "https://registry.yarnpkg.com/tslib/-/tslib-1.11.2.tgz#9c79d83272c9a7aaf166f73915c9667ecdde3cc9"
   integrity sha512-tTSkux6IGPnUGUd1XAZHcpu85MOkIl5zX49pO+jfsie3eP0B6pyhOlLXm3cAC6T7s+euSDDUUV+Acop5WmtkVg==
-
-tslib@^1.9.0:
-  version "1.10.0"
-  resolved "https://registry.yarnpkg.com/tslib/-/tslib-1.10.0.tgz#c3c19f95973fb0a62973fb09d90d961ee43e5c8a"
-  integrity sha512-qOebF53frne81cf0S9B41ByenJ3/IuH8yJKngAX35CmiZySA0khhkovshKK+jGCaMnVomla7gVlIcc3EvKPbTQ==
 
 tsscmp@1.0.6:
   version "1.0.6"
