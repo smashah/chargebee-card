@@ -1188,16 +1188,16 @@
     eslint-plugin-no-only-tests "^2.4.0"
     eslint-plugin-wc "^1.2.0"
 
-"@open-wc/karma-esm@^2.16.8":
-  version "2.16.8"
-  resolved "https://registry.yarnpkg.com/@open-wc/karma-esm/-/karma-esm-2.16.8.tgz#fee39a50e919a93129b8a59b3dc5db0b10ccda40"
-  integrity sha512-MkUft5j9BTdACQD5kQumEaC3E+nqlHQxboL8fjzRYFle/xqaLGLDd4+T4vQHHZGXcVHQmT+ytzi+6GVi2SVmlA==
+"@open-wc/karma-esm@^2.16.10":
+  version "2.16.10"
+  resolved "https://registry.yarnpkg.com/@open-wc/karma-esm/-/karma-esm-2.16.10.tgz#367f26f0ed3991b8c182df1db845da3994f2b850"
+  integrity sha512-ZUH9OQieotgVBq4AVYqaXYpDZ2xevsRMS128eU8nQJuZug86tQ2PkDb5AQHXpllQTqFX3WJhGDZD0/UUwF9PwQ==
   dependencies:
     "@open-wc/building-utils" "^2.18.0"
     babel-plugin-istanbul "^5.1.4"
     chokidar "^3.0.0"
     deepmerge "^4.2.2"
-    es-dev-server "^1.50.8"
+    es-dev-server "^1.52.0"
     minimatch "^3.0.4"
     node-fetch "^2.6.0"
     polyfills-loader "^1.6.1"
@@ -1271,11 +1271,11 @@
     karma-browserstack-launcher "^1.0.0"
 
 "@open-wc/testing-karma@^3.0.0", "@open-wc/testing-karma@^3.3.30":
-  version "3.3.30"
-  resolved "https://registry.yarnpkg.com/@open-wc/testing-karma/-/testing-karma-3.3.30.tgz#f303795ef96f2552bb0ebc82547e403f2b9293e4"
-  integrity sha512-Qf5cDRZPGgC2O7xJfZPMdrBuXyiEVMTxhckRbivPyxj4or7H8IvfPuxoqX4frvTNqQnhC/HCRy+lBHTyo83RCw==
+  version "3.3.32"
+  resolved "https://registry.yarnpkg.com/@open-wc/testing-karma/-/testing-karma-3.3.32.tgz#ae4d890c5d138e3f13a353f39dbc604c409bb2dc"
+  integrity sha512-UxXmbYf1q0utMJo8V7mdB3CuQekHlb+MDyO/tAEUx/cQ8RX9zO36LxFBShTzEZYOYNVmAvVY//jKeXXNKtPSXQ==
   dependencies:
-    "@open-wc/karma-esm" "^2.16.8"
+    "@open-wc/karma-esm" "^2.16.10"
     "@types/karma" "^5.0.0"
     "@types/karma-coverage-istanbul-reporter" "^2.1.0"
     "@types/karma-mocha" "^1.3.0"
@@ -3175,7 +3175,7 @@ es-abstract@^1.17.0-next.0, es-abstract@^1.17.0-next.1:
     string.prototype.trimleft "^2.1.0"
     string.prototype.trimright "^2.1.0"
 
-es-dev-server@^1.5.0, es-dev-server@^1.50.6, es-dev-server@^1.50.8:
+es-dev-server@^1.5.0, es-dev-server@^1.50.8:
   version "1.50.8"
   resolved "https://registry.yarnpkg.com/es-dev-server/-/es-dev-server-1.50.8.tgz#2dca6f1bed813de27f04127be4d07cee6832c376"
   integrity sha512-4WLNKsIrUAC5wpkqo3v/4EWOM9SGdj5abtFhc2tKgfSjli4vcgbOQgcxVHbcOROt8uUGvOYplbDMh49Ie8y8qw==
@@ -3243,10 +3243,10 @@ es-dev-server@^1.5.0, es-dev-server@^1.50.6, es-dev-server@^1.50.8:
     useragent "^2.3.0"
     whatwg-url "^7.0.0"
 
-es-dev-server@^1.50.8:
-  version "1.50.8"
-  resolved "https://registry.yarnpkg.com/es-dev-server/-/es-dev-server-1.50.8.tgz#2dca6f1bed813de27f04127be4d07cee6832c376"
-  integrity sha512-4WLNKsIrUAC5wpkqo3v/4EWOM9SGdj5abtFhc2tKgfSjli4vcgbOQgcxVHbcOROt8uUGvOYplbDMh49Ie8y8qw==
+es-dev-server@^1.52.0:
+  version "1.52.0"
+  resolved "https://registry.yarnpkg.com/es-dev-server/-/es-dev-server-1.52.0.tgz#7af21ee7493832af5b9313ffee2d91f3e8c3b36c"
+  integrity sha512-58cbUOeShEqR6dWjC7TSLIQ1pok0JO8g/Duxo6jLu6H3Hxpiiywp7vIxcpQhZH2OC4UqbqWWsAMQsaswKE7S/w==
   dependencies:
     "@babel/core" "^7.9.0"
     "@babel/plugin-proposal-dynamic-import" "^7.8.3"
