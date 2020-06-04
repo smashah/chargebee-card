@@ -3178,7 +3178,7 @@ es-abstract@^1.17.0-next.0, es-abstract@^1.17.0-next.1:
     string.prototype.trimleft "^2.1.0"
     string.prototype.trimright "^2.1.0"
 
-es-dev-server@^1.5.0, es-dev-server@^1.53.0, es-dev-server@^1.54.0:
+es-dev-server@^1.5.0, es-dev-server@^1.54.0:
   version "1.54.0"
   resolved "https://registry.yarnpkg.com/es-dev-server/-/es-dev-server-1.54.0.tgz#f7af526b5763b8eaeab31b679beeb5c91aceefd2"
   integrity sha512-J5IViGAdudO8hD4Z2BVU0t5MqOmEIQlNFxYddHJ8QqrcyD/Q3u95VMf8End7/eqDMUizeWtae2h21/P4RRq8lw==
@@ -4994,9 +4994,9 @@ lines-and-columns@^1.1.6:
   integrity sha1-HADHQ7QzzQpOgHWPe2SldEDZ/wA=
 
 lint-staged@^10.0.8:
-  version "10.2.7"
-  resolved "https://registry.yarnpkg.com/lint-staged/-/lint-staged-10.2.7.tgz#6e47860af3d86a6a01849cbf8ba80f7754aae6eb"
-  integrity sha512-srod2bTpF8riaLz+Bgr6v0mI/nSntE8M9jbh4WwAhoosx0G7RKEUIG7mI5Nu5SMbTF9o8GROPgK0Lhf5cDnUUw==
+  version "10.2.8"
+  resolved "https://registry.yarnpkg.com/lint-staged/-/lint-staged-10.2.8.tgz#fcc76158c9d17f5f6238678dc2f4fe98535b2f68"
+  integrity sha512-36VUVhZuTJUG0yuSv66o+/Cep9Uwp+od6VkjNxQjHKWvHClVD0SjAZx++4H3zgdr6DxPoUl1y/PVygfPhzAXQQ==
   dependencies:
     chalk "^4.0.0"
     cli-truncate "2.1.0"
