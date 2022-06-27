@@ -1095,6 +1095,11 @@
   dependencies:
     vary "^1.1.2"
 
+"@lit/reactive-element@^1.3.0":
+  version "1.3.2"
+  resolved "https://registry.yarnpkg.com/@lit/reactive-element/-/reactive-element-1.3.2.tgz#43e470537b6ec2c23510c07812616d5aa27a17cd"
+  integrity sha512-A2e18XzPMrIh35nhIdE4uoqRzoIpEU5vZYuQN4S3Ee1zkGdYC27DP12pewbw/RLgPHzaE4kx/YqxMzebOpm0dA==
+
 "@mdjs/core@^0.4.1":
   version "0.4.1"
   resolved "https://registry.yarnpkg.com/@mdjs/core/-/core-0.4.1.tgz#7c6a0383a75aa7c2268b284a962ebffcd648fc94"
@@ -1841,6 +1846,11 @@
   resolved "https://registry.yarnpkg.com/@types/sinon/-/sinon-7.5.1.tgz#d27b81af0d1cfe1f9b24eebe7a24f74ae40f5b7c"
   integrity sha512-EZQUP3hSZQyTQRfiLqelC9NMWd1kqLcmQE0dMiklxBkgi84T+cHOhnKpgk4NnOWpGX863yE6+IaGnOXUNFqDnQ==
 
+"@types/trusted-types@^2.0.2":
+  version "2.0.2"
+  resolved "https://registry.yarnpkg.com/@types/trusted-types/-/trusted-types-2.0.2.tgz#fc25ad9943bcac11cceb8168db4f275e0e72e756"
+  integrity sha512-F5DIZ36YVLE+PN+Zwws4kJogq47hNgX3Nx6WyDJ3kcplxyke3XIzB8uK5n/Lpm1HBsbGzd6nmGehL8cPekP+Tg==
+
 "@types/uglify-js@*":
   version "3.0.5"
   resolved "https://registry.yarnpkg.com/@types/uglify-js/-/uglify-js-3.0.5.tgz#2c70d5c68f6e002e3b2e4f849adc5f162546f633"
@@ -1867,12 +1877,132 @@
   dependencies:
     "@types/node" "*"
 
-"@vaadin/vaadin-control-state-mixin@^2.2.1":
-  version "2.2.3"
-  resolved "https://registry.yarnpkg.com/@vaadin/vaadin-control-state-mixin/-/vaadin-control-state-mixin-2.2.3.tgz#da9456374f5a1f2348b4fa2cc01b0f32ee607824"
-  integrity sha512-a0a+Hh99fQ5ueKTmY6F0i94jOfdOwKFS9ppNs0amfQwO+Js5ZC84naLnyVMVtY87K98FQ1vEYqpzxDYZy6duPw==
+"@vaadin/button@^23.1.2":
+  version "23.1.2"
+  resolved "https://registry.yarnpkg.com/@vaadin/button/-/button-23.1.2.tgz#e8e406bf985826e99a1099742ab3f1de1fae19ce"
+  integrity sha512-S9Ok67V0nCSlzKh1UVpx+OXZDDxqZvMsxlhDVJqAmPIy/f6eRAX2Jubw8YATOJSZTlbAylbM3WoPICIOGZLOjQ==
+  dependencies:
+    "@open-wc/dedupe-mixin" "^1.3.0"
+    "@polymer/polymer" "^3.0.0"
+    "@vaadin/component-base" "^23.1.2"
+    "@vaadin/vaadin-lumo-styles" "^23.1.2"
+    "@vaadin/vaadin-material-styles" "^23.1.2"
+    "@vaadin/vaadin-themable-mixin" "^23.1.2"
+
+"@vaadin/component-base@^23.1.2":
+  version "23.1.2"
+  resolved "https://registry.yarnpkg.com/@vaadin/component-base/-/component-base-23.1.2.tgz#9593846e25f7a4bf0f59c88609f7d076f0265cf4"
+  integrity sha512-HIGieSV34/ISeausCmvEEtG0lqPQ4Ugeg4mVXrJ8a0IAoH/JcBRbQ7HzQ4hNQCD+QKidy+++zyMzX52rEzhx5g==
+  dependencies:
+    "@open-wc/dedupe-mixin" "^1.3.0"
+    "@polymer/polymer" "^3.0.0"
+    "@vaadin/vaadin-development-mode-detector" "^2.0.0"
+    "@vaadin/vaadin-usage-statistics" "^2.1.0"
+    lit "^2.0.0"
+
+"@vaadin/email-field@^23.1.2":
+  version "23.1.2"
+  resolved "https://registry.yarnpkg.com/@vaadin/email-field/-/email-field-23.1.2.tgz#b0b5bbceb9468146949ba8eb1b35726da302ff5b"
+  integrity sha512-9R+dAJUvJYUkwtb5HzOEzHypNBGSB7nyz9o75/Rs7jz4GX5LxYQX8PeBvM/itSeRdWnV8hU1ZpUnJT2G92jb8Q==
   dependencies:
     "@polymer/polymer" "^3.0.0"
+    "@vaadin/component-base" "^23.1.2"
+    "@vaadin/text-field" "^23.1.2"
+    "@vaadin/vaadin-lumo-styles" "^23.1.2"
+    "@vaadin/vaadin-material-styles" "^23.1.2"
+    "@vaadin/vaadin-themable-mixin" "^23.1.2"
+
+"@vaadin/field-base@^23.1.2":
+  version "23.1.2"
+  resolved "https://registry.yarnpkg.com/@vaadin/field-base/-/field-base-23.1.2.tgz#6c23915aa3e0187d7110231a00b39c53ed7af79e"
+  integrity sha512-Iwb1rTkLI8wUbwI5QfWSJ8Tes8dTQejIBgLDss8EHVky+Z4iMghSQ8BP4J4nu8uAWneDzDWt8mv/mEJ7gAXgoA==
+  dependencies:
+    "@open-wc/dedupe-mixin" "^1.3.0"
+    "@polymer/polymer" "^3.0.0"
+    "@vaadin/component-base" "^23.1.2"
+    lit "^2.0.0"
+
+"@vaadin/icon@^23.1.2":
+  version "23.1.2"
+  resolved "https://registry.yarnpkg.com/@vaadin/icon/-/icon-23.1.2.tgz#a0ca03b1811a8e12c20f38e500207b8420154dd2"
+  integrity sha512-aLPkSfHvwOw8kLPM7yNyQwrsHN3J4pLLyYi7jwFw6TwKAn/rI7+RSf3w/LsBU5r17WfLoyPbI84T1rgla/3oEA==
+  dependencies:
+    "@polymer/polymer" "^3.0.0"
+    "@vaadin/component-base" "^23.1.2"
+    "@vaadin/vaadin-lumo-styles" "^23.1.2"
+    "@vaadin/vaadin-themable-mixin" "^23.1.2"
+    lit "^2.0.0"
+
+"@vaadin/input-container@^23.1.2":
+  version "23.1.2"
+  resolved "https://registry.yarnpkg.com/@vaadin/input-container/-/input-container-23.1.2.tgz#4ea7b4526e6c0e8ffe613fcbf136ec8f0fcb7f70"
+  integrity sha512-mK1IryZg6LKoO6voG29mxJ/opzQ9vaW1dFQx1Gt0KCWlth63+iexmwUXEX6eN2wgVwQGTcV/ZkPFlJtUUatWGg==
+  dependencies:
+    "@polymer/polymer" "^3.0.0"
+    "@vaadin/component-base" "^23.1.2"
+    "@vaadin/vaadin-lumo-styles" "^23.1.2"
+    "@vaadin/vaadin-material-styles" "^23.1.2"
+    "@vaadin/vaadin-themable-mixin" "^23.1.2"
+
+"@vaadin/integer-field@^23.1.2":
+  version "23.1.2"
+  resolved "https://registry.yarnpkg.com/@vaadin/integer-field/-/integer-field-23.1.2.tgz#fc5a6ed3876af52d4e133b6f3b494ce866492d7b"
+  integrity sha512-meBJat+NhdI3/4RDIBdBWcGUgzrPW1Dfohb72fMjWpZb8uqWMtiiGIeq+Ol85VJLxVCLWOYbZwqjwMfurXbU/g==
+  dependencies:
+    "@polymer/polymer" "^3.0.0"
+    "@vaadin/number-field" "^23.1.2"
+    "@vaadin/vaadin-lumo-styles" "^23.1.2"
+    "@vaadin/vaadin-material-styles" "^23.1.2"
+
+"@vaadin/number-field@^23.1.2":
+  version "23.1.2"
+  resolved "https://registry.yarnpkg.com/@vaadin/number-field/-/number-field-23.1.2.tgz#8d33a47dc0f4c02c865186fcfaacaccd93b5d2bb"
+  integrity sha512-XnP+Dx4gpVSU3y4H9z3q2eoDPQUQ84fWMCT+goi3WVtKZBIY6BB1JAejEgipVl129gqx04Qv7xi00yEJy7ZTPw==
+  dependencies:
+    "@polymer/polymer" "^3.0.0"
+    "@vaadin/component-base" "^23.1.2"
+    "@vaadin/field-base" "^23.1.2"
+    "@vaadin/input-container" "^23.1.2"
+    "@vaadin/vaadin-lumo-styles" "^23.1.2"
+    "@vaadin/vaadin-material-styles" "^23.1.2"
+    "@vaadin/vaadin-themable-mixin" "^23.1.2"
+
+"@vaadin/password-field@^23.1.2":
+  version "23.1.2"
+  resolved "https://registry.yarnpkg.com/@vaadin/password-field/-/password-field-23.1.2.tgz#22a23334127589ed3f1ce44ab9b2d9a60b4f6a87"
+  integrity sha512-jAw87n1Lq7kPGnXR27qahiSW51qyyuqg4A0OzAsstvtMwy24pVkeprIerTZtRtlbzkqvEfB1SLINhkutuBSiZg==
+  dependencies:
+    "@polymer/polymer" "^3.0.0"
+    "@vaadin/button" "^23.1.2"
+    "@vaadin/text-field" "^23.1.2"
+    "@vaadin/vaadin-lumo-styles" "^23.1.2"
+    "@vaadin/vaadin-material-styles" "^23.1.2"
+
+"@vaadin/text-area@^23.1.2":
+  version "23.1.2"
+  resolved "https://registry.yarnpkg.com/@vaadin/text-area/-/text-area-23.1.2.tgz#895df86ca7715e619a35345c44566ab9194ce8b5"
+  integrity sha512-arDBAo3EYTulZNO71rIWD//5upxucMeP6u+2KJi0yth/aTaD1zcfQovip3+CLCGfJvktLEsFd8zlhZ/HCi9r+A==
+  dependencies:
+    "@polymer/polymer" "^3.0.0"
+    "@vaadin/component-base" "^23.1.2"
+    "@vaadin/field-base" "^23.1.2"
+    "@vaadin/input-container" "^23.1.2"
+    "@vaadin/vaadin-lumo-styles" "^23.1.2"
+    "@vaadin/vaadin-material-styles" "^23.1.2"
+    "@vaadin/vaadin-themable-mixin" "^23.1.2"
+
+"@vaadin/text-field@^23.1.2":
+  version "23.1.2"
+  resolved "https://registry.yarnpkg.com/@vaadin/text-field/-/text-field-23.1.2.tgz#6a55b181dc59ed92adfe8362390f1cb465e7eb6c"
+  integrity sha512-PKXbUyQAlDoUnxARtWeIfwTZiO52d6p4GYpPU2pualon69nPi3sej3K4PQTuPB9Ve3VCVcKl+th0lxrimdBk2A==
+  dependencies:
+    "@polymer/polymer" "^3.0.0"
+    "@vaadin/component-base" "^23.1.2"
+    "@vaadin/field-base" "^23.1.2"
+    "@vaadin/input-container" "^23.1.2"
+    "@vaadin/vaadin-lumo-styles" "^23.1.2"
+    "@vaadin/vaadin-material-styles" "^23.1.2"
+    "@vaadin/vaadin-themable-mixin" "^23.1.2"
 
 "@vaadin/vaadin-development-mode-detector@^2.0.0":
   version "2.0.4"
@@ -1900,7 +2030,7 @@
     "@vaadin/vaadin-material-styles" "^1.3.2"
     "@vaadin/vaadin-themable-mixin" "^1.6.1"
 
-"@vaadin/vaadin-lumo-styles@^1.6.0", "@vaadin/vaadin-lumo-styles@^1.6.1":
+"@vaadin/vaadin-lumo-styles@^1.6.0":
   version "1.6.1"
   resolved "https://registry.yarnpkg.com/@vaadin/vaadin-lumo-styles/-/vaadin-lumo-styles-1.6.1.tgz#2099227b0f646ead16f7289e704b6a793594bf5c"
   integrity sha512-Yh9ZcekpY7byXP1QJnfx94rVvK71xHBEspsVV7LL7YMvqXU4EAYuzQGYsljryV4PGS9PFPD6sqbGqhEkIhHPnQ==
@@ -1909,6 +2039,17 @@
     "@polymer/iron-iconset-svg" "^3.0.0"
     "@polymer/polymer" "^3.0.0"
 
+"@vaadin/vaadin-lumo-styles@^23.1.2":
+  version "23.1.2"
+  resolved "https://registry.yarnpkg.com/@vaadin/vaadin-lumo-styles/-/vaadin-lumo-styles-23.1.2.tgz#3a836d3619f4a714d2a1e16bf3ba54682d0ba8ba"
+  integrity sha512-NdFONK1X5Vw9danvINgBv5n/z9LQRuVYFwCfdzW8zLwYKre9G7oqDf9euYjkuGDNanWTAXgIzXJCiiekAjTljg==
+  dependencies:
+    "@polymer/iron-icon" "^3.0.0"
+    "@polymer/iron-iconset-svg" "^3.0.0"
+    "@polymer/polymer" "^3.0.0"
+    "@vaadin/icon" "^23.1.2"
+    "@vaadin/vaadin-themable-mixin" "^23.1.2"
+
 "@vaadin/vaadin-material-styles@^1.3.2":
   version "1.3.2"
   resolved "https://registry.yarnpkg.com/@vaadin/vaadin-material-styles/-/vaadin-material-styles-1.3.2.tgz#d2c1bd290db16721152ae672dbe052c381686696"
@@ -1916,25 +2057,42 @@
   dependencies:
     "@polymer/polymer" "^3.0.0"
 
-"@vaadin/vaadin-text-field@^3.0.2":
-  version "3.0.2"
-  resolved "https://registry.yarnpkg.com/@vaadin/vaadin-text-field/-/vaadin-text-field-3.0.2.tgz#ffd4b81393779520da871ef0c80db9c9065804cf"
-  integrity sha512-3axAGX/ozl4Fwof1+Rl8l9NaVbxqn51ZKfQDejpLLCOwSIBwZMERdEz1zX2Xah/0b04F7eflPUZStz5G7MAJTQ==
+"@vaadin/vaadin-material-styles@^23.1.2":
+  version "23.1.2"
+  resolved "https://registry.yarnpkg.com/@vaadin/vaadin-material-styles/-/vaadin-material-styles-23.1.2.tgz#ae82406160066db8ed030db871d49ca84b7c2848"
+  integrity sha512-dWzgY2ZsiVKOWL5fnu8UVgsK74BWNTJIelsv8kVedvyvljDeTU6eWXu8G+bldlBLgD9RdXzKJGye9BkE+/xx8Q==
   dependencies:
     "@polymer/polymer" "^3.0.0"
-    "@vaadin/vaadin-control-state-mixin" "^2.2.1"
-    "@vaadin/vaadin-element-mixin" "^2.4.1"
-    "@vaadin/vaadin-lumo-styles" "^1.6.1"
-    "@vaadin/vaadin-material-styles" "^1.3.2"
-    "@vaadin/vaadin-themable-mixin" "^1.6.2"
+    "@vaadin/vaadin-themable-mixin" "^23.1.2"
 
-"@vaadin/vaadin-themable-mixin@^1.6.1", "@vaadin/vaadin-themable-mixin@^1.6.2":
+"@vaadin/vaadin-text-field@^23.1.2":
+  version "23.1.2"
+  resolved "https://registry.yarnpkg.com/@vaadin/vaadin-text-field/-/vaadin-text-field-23.1.2.tgz#5ce7eeeccfdd0372cf6cfbf1e6214aa974cb18c7"
+  integrity sha512-phtqsbvuGkDyuwteTBo9fBpVtYUjbIcuGg9zD3CbPFAadv+OinRkVIgO5dj6XKzfx58fiuUDWRVFgqCmrL16AA==
+  dependencies:
+    "@polymer/polymer" "^3.0.0"
+    "@vaadin/email-field" "^23.1.2"
+    "@vaadin/integer-field" "^23.1.2"
+    "@vaadin/number-field" "^23.1.2"
+    "@vaadin/password-field" "^23.1.2"
+    "@vaadin/text-area" "^23.1.2"
+    "@vaadin/text-field" "^23.1.2"
+
+"@vaadin/vaadin-themable-mixin@^1.6.1":
   version "1.6.2"
   resolved "https://registry.yarnpkg.com/@vaadin/vaadin-themable-mixin/-/vaadin-themable-mixin-1.6.2.tgz#8d619722819ba850af777579a550ff8b1d2b960f"
   integrity sha512-PZZOZnke3KUlZsDrRVbWxAGEeFBPRyRayNRCvip0XnQK+Zs3cLuRgdgbdro3Ir9LZ3Izsw6HqA6XNMKffEP67A==
   dependencies:
     "@polymer/polymer" "^3.0.0"
     lit-element "^2.0.0"
+
+"@vaadin/vaadin-themable-mixin@^23.1.2":
+  version "23.1.2"
+  resolved "https://registry.yarnpkg.com/@vaadin/vaadin-themable-mixin/-/vaadin-themable-mixin-23.1.2.tgz#dad7348581939a6c8f8ecfc18ea848fcda60a16c"
+  integrity sha512-3xTMKyGpdzXwRwIoD940KvxbHaapn7ZZzeGl63RaH+G+jL0of0ejEbE/m0KxmI3r8E2pCiwU6kdUCtPgMazYnw==
+  dependencies:
+    "@open-wc/dedupe-mixin" "^1.3.0"
+    lit "^2.0.0"
 
 "@vaadin/vaadin-usage-statistics@^2.1.0":
   version "2.1.0"
@@ -5173,10 +5331,34 @@ lit-element@^2.0.0, lit-element@^2.0.1, lit-element@^2.2.1, lit-element@^2.3.1:
   dependencies:
     lit-html "^1.1.1"
 
+lit-element@^3.2.0:
+  version "3.2.0"
+  resolved "https://registry.yarnpkg.com/lit-element/-/lit-element-3.2.0.tgz#9c981c55dfd9a8f124dc863edb62cc529d434db7"
+  integrity sha512-HbE7yt2SnUtg5DCrWt028oaU4D5F4k/1cntAFHTkzY8ZIa8N0Wmu92PxSxucsQSOXlODFrICkQ5x/tEshKi13g==
+  dependencies:
+    "@lit/reactive-element" "^1.3.0"
+    lit-html "^2.2.0"
+
 lit-html@^1.0.0, lit-html@^1.1.1, lit-html@^1.1.2, lit-html@^1.2.1:
   version "1.3.0"
   resolved "https://registry.yarnpkg.com/lit-html/-/lit-html-1.3.0.tgz#c80f3cc5793a6dea6c07172be90a70ab20e56034"
   integrity sha512-0Q1bwmaFH9O14vycPHw8C/IeHMk/uSDldVLIefu/kfbTBGIc44KGH6A8p1bDfxUfHdc8q6Ct7kQklWoHgr4t1Q==
+
+lit-html@^2.2.0:
+  version "2.2.6"
+  resolved "https://registry.yarnpkg.com/lit-html/-/lit-html-2.2.6.tgz#e70679605420a34c4f3cbd0c483b2fb1fff781df"
+  integrity sha512-xOKsPmq/RAKJ6dUeOxhmOYFjcjf0Q7aSdfBJgdJkOfCUnkmmJPxNrlZpRBeVe1Gg50oYWMlgm6ccAE/SpJgSdw==
+  dependencies:
+    "@types/trusted-types" "^2.0.2"
+
+lit@^2.0.0:
+  version "2.2.6"
+  resolved "https://registry.yarnpkg.com/lit/-/lit-2.2.6.tgz#4ef223e88517c000b0c01baf2e3535e61a75a5b5"
+  integrity sha512-K2vkeGABfSJSfkhqHy86ujchJs3NR9nW1bEEiV+bXDkbiQ60Tv5GUausYN2mXigZn8lC1qXuc46ArQRKYmumZw==
+  dependencies:
+    "@lit/reactive-element" "^1.3.0"
+    lit-element "^3.2.0"
+    lit-html "^2.2.0"
 
 load-json-file@^1.0.0:
   version "1.1.0"
