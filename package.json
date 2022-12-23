@@ -27,7 +27,7 @@
     "storybook:build": "build-storybook"
   },
   "dependencies": {
-    "@vaadin/vaadin-form-layout": "^2.1.6",
+    "@vaadin/vaadin-form-layout": "^23.3.2",
     "@vaadin/vaadin-text-field": "^3.0.2",
     "lit-element": "^2.0.1",
     "lit-html": "^1.1.2"
